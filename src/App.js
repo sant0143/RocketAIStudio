@@ -196,7 +196,7 @@ function DataInterpretation({ onNavigateToModelTraining }) {
       </div>
       {isLoading && (
         <div className="w-full bg-gray-200 rounded-full h-2.5 mb-4 dark:bg-gray-700">
-          <div className="bg-blue-600 h-2.5 rounded-full" style={{ width: `${progress}%` }}></div>
+          <div className="bg-gradient-to-r from-[#5738F5] to-[#CF52F6] h-2.5 rounded-full" style={{ width: `${progress}%` }}></div>
         </div>
       )}
       {error && <p className="text-red-500 mt-2">{error}</p>}
